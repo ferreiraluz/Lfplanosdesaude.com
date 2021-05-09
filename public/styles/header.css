@@ -1,0 +1,24 @@
+header{
+    background-color: var(--principal-color);
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    height: 140px;
+}
+
+#logo{
+    margin: auto;
+    
+}
+
+#logo img{
+    width: 70%;
+    height: 70%;
+}
+
+@media(max-width: 600px){
+    header{
+        height: 117px;
+    }    
+}

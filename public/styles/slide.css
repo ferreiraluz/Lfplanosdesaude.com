@@ -1,0 +1,52 @@
+
+.slide{
+    background-color: black;
+}
+
+#doctor-presentation .operators-slide-left img{
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    top: 69%;
+    left: 8rem;
+    opacity: 0;
+
+    transition: 1s;
+}
+
+#doctor-presentation .operators-slide-left img.selected{
+    opacity: 1;
+}
+
+#doctor-presentation .operators-slide-right img{
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    top: 69%;
+    right: 8rem;
+    opacity: 0;
+
+    transition: .8s;
+   
+}
+
+#doctor-presentation .operators-slide-right img.selected{
+    opacity: 1;
+}
+
+@media(max-width: 900px){
+    #doctor-presentation .slide img{
+      display: none;
+
+        
+    }
+
+    #doctor-presentation .operators-slide-right img{
+        right: 5.2rem;
+    }
+
+    #doctor-presentation .operators-slide-left img{
+        left: 5.2rem;
+    }
+}
+

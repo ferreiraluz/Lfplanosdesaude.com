@@ -1,0 +1,158 @@
+#form-contact{
+    width: 100%;
+    
+    
+    
+
+    color: white;
+    background-color: var(--principal-color);
+
+    
+}
+
+select{
+    
+    margin: 10px;
+}
+
+form{
+   
+    width: 1200px;
+    
+    margin: auto;
+    margin-top: 10px;
+    
+   
+    
+    background-color: var(--principal-hover);
+
+    border-radius: .8rem;
+
+    overflow: hidden;
+
+    color: white;
+}
+
+fieldset{
+    margin-top: 1rem;
+    border: 0;
+    border-radius: .2rem .8rem .2rem .8rem;
+}
+
+
+.field-group{
+    display: flex;
+    
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    
+    
+}
+
+.field-group input{
+    padding: 5px;
+    margin: 20px;
+   
+    padding: 18px;
+
+    border-radius: .2rem;
+    border: 0;
+    
+}
+
+.field-group .big-input{
+    width: 350px;
+    height: 2px;
+    
+}
+
+input#button{
+    padding: 1.5rem;
+    font-weight: bolder;
+    background-color: var(--principal-color);
+    color: white;
+    border: 0;
+    border-radius: .8rem 0 0.2rem 0.1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    font-variant-caps: all-petite-caps;
+
+    transition: background .4s;
+
+
+}
+
+input#button:hover{
+    background-color: rgba(3, 3, 31, 0.685);
+}
+
+
+
+@media(max-width: 820px){
+    #form-contact{
+       display: flex;
+       justify-content: center;
+     
+       margin: auto;
+
+       display: block;
+
+       
+       
+    }
+
+    form{
+        width: 420px;
+        border-radius: .5rem;
+        font-size: 10px;
+
+        margin: auto;
+        margin-top: 5px;
+        height: 1100px;
+
+        display: block;
+    }
+
+    fieldset{
+        display: block;
+    }
+
+    .field-group{
+        display: block;
+    }
+
+    input{
+        margin-top: 5px;
+    }
+    
+
+}
+
+@media(min-width: 821px) and (max-width: 1250px){
+    form{
+        width: 800px;
+        font-size: 11px;
+    }
+}
+
+@media(max-width: 450px){
+    form{
+        width: 295px;
+        height: 990px;
+    }
+
+    .field-group .big-input{
+        width: 200px;
+        height: 10px;
+        padding: 15px;
+        
+    }
+
+    input{
+        width: 100px;
+    }
+    
+}
+

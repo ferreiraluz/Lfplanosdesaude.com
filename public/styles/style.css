@@ -1,0 +1,20 @@
+:root{
+    --principal-color: #03033d;
+    --principal-hover: #0aac76;
+    --title-font: 'Lato', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--title-font);
+    
+}
+
+.landing-page{
+    background-color: var(--principal-color);
+}
+
+
+

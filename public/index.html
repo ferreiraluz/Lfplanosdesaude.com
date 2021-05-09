@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LF Planos de Saúde</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/doctor-presentation.css">
+    <link rel="stylesheet" href="./styles/cards.css">
+    <link rel="stylesheet" href="./styles/form.css">
+    <link rel="stylesheet" href="./styles/slide.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+</head>
+
+<body>
+
+    <div class="landing-page">
+        <main id="container-presentation">
+            <header>
+                <div id="logo">
+                    <img src="./img/logo.png" alt="logo" srcset="">
+                </div>
+            </header>
+
+
+
+            <div id="doctor-presentation">
+
+
+                <img src="./img/banner3.png" alt="" id="banner">
+
+
+                <a href="https://wa.me/5521988171653">
+                    <button>
+                        <h1> <i class="fab fa-whatsapp"></i> LEONARDO FERREIRA</h1>
+                        <h5>CORRETOR AUTORIZADO</h5>
+                    </button>
+                </a>
+
+                <img src="./img/mobile-img/1.png" id="banner-mobile">
+
+               
+
+              
+
+              
+            </div>
+
+            <div id="cards-presentation">
+
+                <h1 class="card-title">PLANOS DISPONÍVEIS</h1>
+                <main id="cards">
+                    <div class="card">
+
+                        <i class="fas fa-users"></i>
+
+                        <h4>
+                            INDIVIDUAL/ <br> FAMILIAR
+                        </h4>
+                    </div>
+
+                   <div class="card" class="card-center">
+                        <i class="fas fa-user-tie"></i>
+
+                        <h4>
+                            EMPRESARIAIS
+                        </h4>
+
+                        <br>
+
+                        <h6>
+                            Cnpj/Mei/Ltda/Eireli
+                        </h6>
+                   </div>
+
+                    <div class="card">
+
+                        <i class="fas fa-handshake"></i>
+
+                        <h4>
+                            COLETIVOS POR ADESÃO
+                        </h4>
+                    </div>
+
+                    <div class="card-mobile">
+
+                        <i class="fas fa-users"></i>
+                        <h4>
+                            INDIVIDUAL/ <br> FAMILIAR
+                        </h4>
+
+                        <br>
+
+                        <i class="fas fa-handshake"></i>
+                        <h4>
+                            COLETIVOS POR ADESÃO
+                        </h4>
+                      <br>
+
+                        <i class="fas fa-user-tie"></i>
+                        <h4>
+                            EMPRESARIAIS
+                        </h4>
+
+                        <br>
+
+                        <h6>
+                            Cnpj/Mei/Ltda/Eireli
+                        </h6>
+
+                    </div>
+                </main>
+
+                <hr>
+                <div id="doctor-presentation">
+                    <img src="./img/woman-tel.png" id="banner" alt="mulher">
+
+                    <img src="./img/mobile-img/2.png" id="banner-mobile" alt="mulher">
+                </div>
+
+                
+
+            </div>
+        </main>
+
+
+
+        <main id="form-contact">
+            <form action="https://formspree.io/f/xzbkwqwa" method="POST">
+                <fieldset>
+                    <div class="field-group">
+                        <label for="Nome">
+                            <h2> <i class="fas fa-female"></i> Nome Completo </h2>
+                        </label>
+                        <input type="text" name="Nome" class="big-input" id="name" required>
+
+                        <label for="Tel">
+                            <h2> <i class="fab fa-whatsapp"></i> WhatsApp </h2>
+                        </label>
+                        <input type="number" name="Tel" class="small-input" id="wpp">
+                </fieldset>
+
+                <fieldset>
+                    <div class="field-group">
+
+
+                        <label for="plan-question">
+                            <h2> <i class="fas fa-question-circle"></i> Você possui algum plano de saúde?</h2>
+                        </label>
+
+                        <select name="plan-quesiton" id="plan-question" class="small-input" required>
+                            <option value="#"></option>
+                            <option value="yes">Sim</option>
+                            <option value="no">Não</option>
+                        </select>
+
+                        <label for="health-plan">
+                            <h2> <i class="fas fa-thumbs-up"></i> Se sim, qual?</h2>
+                        </label>
+
+                        <input type="text" name="health-plan" id="health">
+
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <div class="field-group">
+                        <label for="email">
+                            <h2>Digite seu melhor email: </h2>
+                        </label>
+
+                        <input type="email" name="email" id="email" class="big-input" required>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <div class="field-group">
+                        <label for="address">
+                            <h2> <i class="fas fa-address-card"></i> Endereço Completo</h2>
+                        </label>
+
+                        <input type="text" name="address" id="address" class="big-input" required>
+
+                        <label for="cep">
+                            <h2>CEP</h2>
+                        </label>
+
+                        <input type="text" name="cep" id="address" class="small-input" required>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <div class="field-group">
+                        <label for="age">
+                            <h2> <i class="fas fa-baby"></i> Idade (s) </h2>
+                        </label>
+
+                        <input type="text" name="age" id="age" required>
+
+                        <label for="profission">
+                            <h2><i class="fas fa-user-tie"></i> Profissão </h2>
+                        </label>
+
+                        <input type="text" name="profission" id="profission">
+                        
+
+                </fieldset>
+
+                <fieldset>
+                    <div class="field-group">
+                        <label for="mei">
+                            <h2>Você possui Cnpj/Mei/Ltda?</h2>
+                        </label>
+
+                        <select name="plan-quesiton" id="plan-question" class="small-input">
+                            <option value="#"></option>
+                            <option value="yes">Sim</option>
+                            <option value="no">Não</option>
+                        </select>
+
+                        <input type="submit" value="Enviar" id="button" >
+                    </div>
+                </fieldset>
+            </form>
+        </main>
+
+        <footer>
+            
+
+            <div class="footer-mobile">
+                <img src="./img/footer-mob.png" alt="">
+            </div>
+
+            <a href="https://wa.me/5521988171653">
+                <button>
+                    <h1> <i class="fab fa-whatsapp"></i> ENTRE EM CONTATO CONOSCO</h1>
+                    <h5>CORRETOR AUTORIZADO</h5>
+                </button>
+            </a>
+
+        </footer>
+    </div>
+    <!--landing-page-->
+
+    <script src="script/slide.js">
+    </script>
+
+    <script src="./script/script.js"></script>
+</body>
+
+</html>

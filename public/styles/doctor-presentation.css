@@ -1,0 +1,75 @@
+#doctor-presentation{
+    max-height: 30rem;
+    background-color: var(--principal-color);
+    text-align: center;
+
+    width: 100%;
+}
+
+#doctor-presentation img#banner{
+    width: 100%;
+    height: 28rem;
+    opacity: .9;
+}
+
+
+
+#doctor-presentation img#banner-mobile{
+    display: none;
+}
+
+#doctor-presentation h2{
+    font-family: var(--title-font);
+    position: absolute;
+    top: 20rem;
+    font-weight: 800;
+    left: 10%;
+    font-size: 1.8rem;
+    font-variant-caps: all-petite-caps;
+    color: #ffffff;
+
+}
+
+#doctor-presentation a{
+    position: absolute;
+    left: 2%;
+}
+
+#doctor-presentation button{
+    padding: .4rem;
+    border-radius: 0 .8rem .2rem .8rem;
+    background-color: var(--principal-color);
+    opacity: 1;
+    color: white;
+    font-family: var(--title-font);
+    cursor: pointer;
+    transition: background .4s;
+    
+    
+    
+}
+
+#doctor-presentation button i{
+    font-size: 2rem;
+}
+
+#doctor-presentation button:hover{
+    background-color: var(--principal-hover);
+}
+
+@media(max-width: 750px){
+    #doctor-presentation img#banner{
+        display: none;
+    }
+
+    #doctor-presentation img#banner-mobile{
+        display: block;
+        width: 100%;
+        height: 400px;
+    }
+
+    #doctor-presentation button{
+        font-size: .4rem;
+    }
+}
+
